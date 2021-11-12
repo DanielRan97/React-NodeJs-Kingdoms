@@ -1,0 +1,30 @@
+{
+  "name": "kingdoms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/server.js",
+    "dev": "nodemon src/server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.7",
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-openid-connect": "^2.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.10",
+    "multer": "^1.4.3",
+    "sharp": "^0.29.1",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

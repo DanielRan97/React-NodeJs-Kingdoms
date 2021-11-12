@@ -1,0 +1,36 @@
+.SideBar {
+    width: 200px;
+    height: 100%;
+    background-color: peru;
+    display: inline-block;
+    text-align: center;
+    z-index: 20;
+    box-shadow: 10px 0 5px -2px #888;
+}
+
+.menuTitle {
+    margin-top: 30px;
+    color: green;
+}
+
+.menuOptions ul {
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+
+.menuOptions li {
+    width: 100%;
+    font-weight: bold;
+}
+
+.menuOptions a {
+    font-size: 20px;
+    height: 50px;
+    line-height: 48px;
+
+}
+
+.menuOptions a:hover {
+    background-color: #de9f0d28;
+}

@@ -1,0 +1,63 @@
+.Auth {
+    text-align: center;
+}
+
+.authCard {
+    text-align: center;
+    display: inline-block;
+    width: 60%;
+    max-width: 600px;
+    min-width: 315px;
+}
+
+.title {
+    color: green;
+}
+
+.errorTitle {
+    color: #9c0000;
+    font-size: 13px;
+}
+
+.authForm {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.authModeLink {
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: darkgreen;
+    list-style-type: none;
+}
+
+.authModeLink:hover {
+    color: black;
+}
+
+.inputError {
+    font-size: 13px;
+    color: #9c0000;
+    margin: 0px;
+    position: relative;
+    bottom: 8px;
+}
+
+.profileImageInput {
+    margin: 18px;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.profileImageText {
+    margin-bottom: -15px;
+    font-size: 13px;
+}

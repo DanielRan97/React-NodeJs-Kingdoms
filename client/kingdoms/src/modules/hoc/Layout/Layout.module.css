@@ -1,0 +1,21 @@
+.Layout {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.SideBar {
+    display: inline-block;
+    position: fixed;
+    height: 100%;
+}
+
+@media screen and (min-width:405px) {
+    .SideBar {
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.link {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    box-sizing: border-box;
+    display: block;
+    color: black;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+a:active {
+    color: black;
+}
+
+.linkSelected {
+    display: inline-block;
+}
+
+.linkSelected a {
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    color: green;
+}
+
+.linkSelected a:hover {
+    color: black;
+}
+
+.linkSelected a:active {
+    color: green;
+}

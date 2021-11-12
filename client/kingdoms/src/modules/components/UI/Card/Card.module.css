@@ -1,0 +1,9 @@
+.Card {
+    text-align: center;
+    border: green 5px solid;
+    background-color: peru;
+    width: 100%;
+    min-height: 100px;
+    box-shadow: 9px 9px 38px 0px rgba(0, 0, 0, 0.75);
+    padding: 5px;
+}
